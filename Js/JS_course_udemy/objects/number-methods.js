@@ -21,7 +21,7 @@ console.log(randomNum)
 
 let guess = function (input) {
     let min = 1
-    let max = 5
+    let max = 1
     return input == Math.floor(Math.random() * (max - min + 1)) + min
 
 }
